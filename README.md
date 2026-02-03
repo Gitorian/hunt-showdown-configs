@@ -24,12 +24,12 @@ NVIDIA profiles for [Profile Inspector Revamped](https://github.com/xHybred/Nvid
 
 Base profile affects all games.
 
+### Legacy NVIDIA sharpening (pre-NIS)
+
+Legacy sharpening is cleaner than NIS. Less haloing on high contrast edges, works at native resolution without forcing GPU scaling, and doesn't oversharpen dark areas. NIS was designed for upscaling - using it just for sharpening at native res adds artifacts some people don't like.
+
 <details>
-<summary>Legacy NVIDIA sharpening (pre-NIS)</summary>
-
-  ### Why use legacy sharpening
-
-  Legacy sharpening is cleaner than NIS. Less haloing on high contrast edges, works at native resolution without forcing GPU scaling, and doesn't oversharpen dark areas. NIS was designed for upscaling - using it just for sharpening at native res adds artifacts some people don't like.
+<summary>Guide</summary>
 
   ### What it does
 
