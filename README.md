@@ -31,10 +31,6 @@ Legacy sharpening is cleaner than NIS. Less haloing on high contrast edges, work
 <details>
 <summary>Guide</summary>
 
-  ### What it does
-
-  Reverts to the old Image Sharpening method instead of NVIDIA Image Scaling (NIS). Works at native resolution without GPU scaling.
-
   ### Registry files
 
   **Legacy-Sharpen.reg** - Enables old sharpening  
