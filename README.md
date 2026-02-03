@@ -23,7 +23,7 @@ Modified version by DEFICHENT NOT FOUND.
 2. Import the .nip files
 3. Restart for changes to apply
 
-Fair warning: the base profile changes global driver settings. If you don't know what pre-rendered frames or v-sync tear control do, maybe skip that one.
+The base profile is global - it'll affect every game. Don't import it unless you know what you're doing.
 
 ## Linux setup (vkBasalt)
 
@@ -33,7 +33,3 @@ Fair warning: the base profile changes global driver settings. If you don't know
 4. Launch Hunt with `ENABLE_VKBASALT=1 %command%` in Steam launch options
 
 The crosshair offset is set for 1440p.
-
-## Notes
-
-These work for my setup. Your mileage may vary depending on hardware and what you're used to.
