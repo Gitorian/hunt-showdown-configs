@@ -15,7 +15,7 @@ Console commands that execute on launch. Put it in your Hunt install folder.
 Modified version by DEFICHENT NOT FOUND.
 
 **Hunt.ini**  
-vkBasalt config for Linux. Reshade shaders running through a Vulkan layer - works with Proton. Includes sharpening, color tweaks, and a custom crosshair.
+[vkBasalt](https://github.com/DadSchoorse/vkBasalt) config for Linux. Reshade shaders running through a Vulkan layer - works with Proton. Includes sharpening, color tweaks, and a custom crosshair.
 
 ## Installing NVIDIA profiles
 
@@ -28,11 +28,11 @@ Fair warning: the base profile changes global driver settings. If you don't know
 ## Linux setup (vkBasalt)
 
 1. Install [vkBasalt](https://github.com/DadSchoorse/vkBasalt) from your distro repos or build from source
-2. Download [Reshade shaders](https://github.com/crosire/reshade-shaders) somewhere
+2. Download [Reshade shaders](https://github.com/crosire/reshade-shaders)
 3. Edit Hunt.ini and point the paths to your shader location
 4. Launch Hunt with `ENABLE_VKBASALT=1 %command%` in Steam launch options
 
-The crosshair offset is set for 1440p. Different resolution? You'll need to tweak the Y offset values.
+The crosshair offset is set for 1440p.
 
 ## Notes
 
