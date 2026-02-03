@@ -22,7 +22,7 @@ NVIDIA profiles for [Profile Inspector Revamped](https://github.com/xHybred/Nvid
 2. Import the .nip files
 3. Restart for changes to apply
 
-The base profile is global - it'll affect every game. Don't import it unless you know what you're doing.
+Base profile affects all games.
 
 ## Linux
 
