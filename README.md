@@ -11,7 +11,8 @@ NVIDIA profiles for [Profile Inspector Revamped](https://github.com/xHybred/Nvid
 Game settings, keybinds, loadout preferences. Goes in `%LOCALAPPDATA%\Crytek\Hunt\user\profiles\default\`
 
 **autoexec.cfg**  
-Console commands that execute on launch. Put it in your Hunt install folder.
+Console commands that execute on launch. Put it in your Hunt install folder.  
+Modified version by DEFICHENT NOT FOUND.
 
 ## Installing NVIDIA profiles
 
