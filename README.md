@@ -8,7 +8,7 @@ My Hunt: Showdown config files and NVIDIA driver tweaks.
 NVIDIA profiles for [Profile Inspector Revamped](https://github.com/xHybred/NvidiaProfileInspectorRevamped). The base profile affects all games, Hunt-Showdown.nip is game-specific. Mostly focused on reducing input lag and dialing in DLSS/sharpening.
 
 **attributes.xml**  
-Game settings, keybinds, loadout preferences. Goes in `%LOCALAPPDATA%\Crytek\Hunt\user\profiles\default\`
+Game settings, keybinds, loadout preferences. Goes in `\Hunt Showdown 1896\USER\Profiles\default\attributes.xml`
 
 **autoexec.cfg**  
 Console commands that execute on launch. Put it in your Hunt install folder.  
