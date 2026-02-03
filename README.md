@@ -24,6 +24,31 @@ NVIDIA profiles for [Profile Inspector Revamped](https://github.com/xHybred/Nvid
 
 Base profile affects all games.
 
+<details>
+<summary>Legacy NVIDIA sharpening (pre-NIS)</summary>
+
+### What it does
+
+Reverts to the old Image Sharpening method instead of NVIDIA Image Scaling (NIS). Works at native resolution without GPU scaling.
+
+### Registry files
+
+**Legacy-Sharpen.reg** - Enables old sharpening  
+**NIS-Sharpen.reg** - Re-enables NIS
+
+Double-click to apply, restart PC.
+
+### Manual method
+
+1. Open Registry Editor
+2. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Parameters\FTS`
+3. Set `EnableGR535` to `0` for legacy, `1` for NIS
+4. Restart
+
+Driver updates reset this to NIS.
+
+</details>
+
 ## Linux
 
 **Hunt.ini**  
