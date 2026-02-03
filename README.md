@@ -27,25 +27,29 @@ Base profile affects all games.
 <details>
 <summary>Legacy NVIDIA sharpening (pre-NIS)</summary>
 
-### What it does
+  ### Why use legacy sharpening
 
-Reverts to the old Image Sharpening method instead of NVIDIA Image Scaling (NIS). Works at native resolution without GPU scaling.
+  Legacy sharpening is cleaner than NIS. Less haloing on high contrast edges, works at native resolution without forcing GPU scaling, and doesn't oversharpen dark areas. NIS was designed for upscaling - using it just for sharpening at native res adds artifacts some people don't like.
 
-### Registry files
+  ### What it does
 
-**Legacy-Sharpen.reg** - Enables old sharpening  
-**NIS-Sharpen.reg** - Re-enables NIS
+  Reverts to the old Image Sharpening method instead of NVIDIA Image Scaling (NIS). Works at native resolution without GPU scaling.
 
-Double-click to apply, restart PC.
+  ### Registry files
 
-### Manual method
+  **Legacy-Sharpen.reg** - Enables old sharpening  
+  **NIS-Sharpen.reg** - Re-enables NIS
 
-1. Open Registry Editor
-2. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Parameters\FTS`
-3. Set `EnableGR535` to `0` for legacy, `1` for NIS
-4. Restart
+  Double-click to apply, restart PC.
 
-Driver updates reset this to NIS.
+  ### Manual method
+
+  1. Open Registry Editor
+  2. Navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\Parameters\FTS`
+  3. Set `EnableGR535` to `0` for legacy, `1` for NIS
+  4. Restart
+
+  Driver updates reset this to NIS.
 
 </details>
 
