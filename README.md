@@ -27,9 +27,10 @@ The base profile is global - it'll affect every game. Don't import it unless you
 
 ## Linux setup (vkBasalt)
 
-1. Install [vkBasalt](https://github.com/DadSchoorse/vkBasalt) from your distro repos or build from source
-2. Download [Reshade shaders](https://github.com/crosire/reshade-shaders)
-3. Edit Hunt.ini and point the paths to your shader location
-4. Launch Hunt with `ENABLE_VKBASALT=1 %command%` in Steam launch options
+1. Install [Proton-GE](https://github.com/GloriousEggroll/proton-ge-custom) for better performance
+2. Install [vkBasalt](https://github.com/DadSchoorse/vkBasalt) from your distro repos or build from source
+3. Download [Reshade shaders](https://github.com/crosire/reshade-shaders)
+4. Edit Hunt.ini and point the paths to your shader location
+5. Launch Hunt with `ENABLE_VKBASALT=1 %command%` in Steam launch options
 
 The crosshair offset is set for 1440p.
