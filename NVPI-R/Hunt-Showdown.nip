@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-16"?>
+﻿<?xml version="1.0" encoding="utf-16"?>
 <ArrayOfProfile>
   <Profile>
     <ProfileName>Hunt: Showdown</ProfileName>
@@ -106,7 +106,7 @@
       <ProfileSetting>
         <SettingNameInfo>Frame Rate Limiter</SettingNameInfo>
         <SettingID>277041154</SettingID>
-        <SettingValue>288</SettingValue>
+        <SettingValue>260</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
@@ -130,7 +130,7 @@
       <ProfileSetting>
         <SettingNameInfo>Override scaling ratio for DLSS-SR</SettingNameInfo>
         <SettingID>283385333</SettingID>
-        <SettingValue>66</SettingValue>
+        <SettingValue>77</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
