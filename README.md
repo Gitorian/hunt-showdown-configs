@@ -5,10 +5,10 @@ My Hunt: Showdown config files and tweaks.
 ## Global (Windows & Linux)
 
 **attributes.xml**  
-Game settings, keybinds, loadout preferences. Goes in `\Hunt Showdown 1896\USER\Profiles\default\attributes.xml`
+Game settings, keybinds, loadout preferences. Goes in `\Hunt Showdown 1896\USER\Profiles\default\attributes.xml`.
 
 **autoexec.cfg**  
-Console commands that execute on launch. Put it in `\Hunt Showdown 1896\USER\Profiles\default`
+Console commands that execute on launch. Put it in `\Hunt Showdown 1896\USER\Profiles\default`.
 Modified version by DEFICHENT NOT FOUND.
 
 ## Windows
